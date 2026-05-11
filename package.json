@@ -1,0 +1,9 @@
+{
+  "name": "quickbite",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "postinstall": "npm --prefix backend install",
+    "start": "npm --prefix backend start"
+  }
+}
