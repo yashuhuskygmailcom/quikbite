@@ -3,8 +3,8 @@ const { MongoClient, ObjectId } = require('mongodb');
 const cors = require('cors');
 
 const app = express();
-const PORT = 5000;
-const MONGO_URI = 'mongodb://127.0.0.1/27017/quickbite'; 
+const PORT = process.env.PORT || 5000;
+const MONGO_URI = process.env.MONGO_URI || 'mongodb://127.0.0.1/27017/quickbite';
 const DB_NAME = 'quickbite';
 
 
